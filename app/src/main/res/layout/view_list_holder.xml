@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginHorizontal="10dp"
+    android:layout_marginBottom="5dp"
+    android:background="@drawable/dr_item"
+    android:padding="10dp">
+
+    <TextView
+        android:id="@+id/taskName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:text="@string/taskName1"
+        android:textColor="@color/black"
+        android:textSize="25dp" />
+
+    <TextView
+        android:id="@+id/taskDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/taskName"
+        android:layout_marginLeft="10dp"
+        android:text="@string/taskDate1"
+        android:textColor="@color/black"
+        android:textSize="20dp" />
+
+    <com.google.android.material.checkbox.MaterialCheckBox
+        android:id="@+id/task_delete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:buttonTint="@color/black" />
+
+    <com.google.android.material.progressindicator.CircularProgressIndicator
+        android:id="@+id/delete_progress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:indeterminate="true"
+        android:visibility="gone" />
+</RelativeLayout>

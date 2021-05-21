@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">Todo List</string>
+
+    <string name="taskName1">Go to school</string>
+    <string name="taskDate1">Date: 7:00am 20 March 2021</string>
+    <string name="taskDetailDescription1">Go to school to get knowledge</string>
+    <string name="taskPartner1">With: Mr.A</string>
+    <string name="taskLocation1">At: Phnom Penh</string>
+
+    <string name="toolBarHome">Todo List</string>
+    <string name="toolBarProfile">Profile</string>
+    <string name="toolBarSetting">Setting</string>
+    <string name="toolBarAddTask">Add Task</string>
+
+    <string name="navOpen">Open</string>
+    <string name="navClose">Close</string>
+
+    <string name="taskName2">Have Breakfast</string>
+    <string name="taskDate2">Date: 9:00am 20 March 2021</string>
+    <string name="taskDetailDescription2">For good healthy</string>
+    <string name="taskPartner2">With: Mr.B</string>
+    <string name="taskLocation2">At: PP Tuol Kork</string>
+
+    <string name="navHome">Home</string>
+    <string name="navProfile">Profile</string>
+    <string name="navSetting">Setting</string>
+    <string name="navLogout">Logout</string>
+
+    <string name="url">http://128.199.190.255:8081/api/</string>
+
+    <string name="task_detail">Task Detail (optional)</string>
+    <string name="task_location">Task location (optional)</string>
+    <string name="partner">Partner (optional)</string>
+    <string name="add_task_done">Done</string>
+    <string name="todo">TODO</string>
+    <string name="AddTodo" />
+    <string name="addtask_cancel">Cancel</string>
+    <string name="nothing_change">Nothing Change</string>
+
+</resources>
